@@ -1,0 +1,19 @@
+.footer {
+    position: sticky;
+    color: white;
+    top: 0px;
+    height: 70px;
+    background-color: black;
+    opacity: 0.75;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+    margin-bottom: -70px;
+    z-index: 5;
+  }
+  .text{
+    color:white ;
+    font-family: 'MonteCarlo', cursive;
+    font-size: 1.3rem;
+  }

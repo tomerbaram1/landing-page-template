@@ -1,0 +1,41 @@
+.header {
+    position: sticky;
+    color: white;
+    top: 0px;
+    height: 70px;
+    background-color: black;
+    opacity: 0.75;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+    margin-bottom: -70px;
+    z-index: 5;
+  }
+  .header-menu{
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  .logo{
+    color:white ;
+    font-family: 'MonteCarlo', cursive;
+    font-size: 2.5rem;
+  }
+  
+  .text-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2px;
+    margin: 0px 5px;
+    border-style: solid ;
+    border-width: 0px 0px 1px 0px;
+    border-color: transparent;
+    transition: 250ms;
+  }
+  .text-link:hover{
+    border-color: white;
+    transition: 250ms;
+  }
