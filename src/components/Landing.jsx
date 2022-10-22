@@ -6,7 +6,7 @@ export default function Landing({ imageSrc }) {
 
   return (
     <div className="landing">
-      <img src={imageSrc} alt="image" className="landing-img" />
+      <img src={imageSrc} className="landing-img" />
       <h1 className="landing-title">YOUR TITLE GOES HERE</h1>
     </div>
   
