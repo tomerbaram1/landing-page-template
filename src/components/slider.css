@@ -29,3 +29,30 @@
   .slider-title{
     text-align: center;
   }
+ 
+  @media screen and (max-width: 800px) {
+    .slider {
+      display: flex;
+      align-items: center;
+      margin: 80px;
+      margin-bottom: 30px;
+      background-color: rgba(234, 234, 234, 0.656);
+      opacity: 0;
+      transform: scale(85%);
+      transition: 2s;
+    }
+    .slider-zoom{
+      opacity: 1;
+      transform: scale(100%);
+      transition: 2s;
+    }
+    .slider-img{
+      width: 100%;
+
+    
+    }
+    .slider-content{
+      font-size: 1rem;
+      text-align: center;
+    }
+  }

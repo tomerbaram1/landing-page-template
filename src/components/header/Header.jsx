@@ -1,7 +1,9 @@
+
 import { FaSignInAlt, FaUser } from "react-icons/fa";
 
 import "./header.css"
 const Header = () => {
+
   return (
     <header className="header">
       <div>
