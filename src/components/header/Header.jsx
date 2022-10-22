@@ -1,6 +1,5 @@
-J
-import { FaSignInAlt, FaUser } from "react-icons/fa";
 
+import { FaSignInAlt, FaUser } from "react-icons/fa";
 import "./header.css"
 const Header = () => {
 
